@@ -7,4 +7,4 @@ with sr.Microphone() as s:
  		speech = r.recognize_google(audio, language='pt')
  		print(speech) 		
  open('chat.txt', "w"):
- chat.write("Orador 1: ", speech)
+ chat.write("Orador: ", speech)
