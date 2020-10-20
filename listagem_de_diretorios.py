@@ -12,14 +12,12 @@ def fileext(nome):
 
 
 def scandir(root, output):
-    pastas = 0
     dires = []
     diret = root
     chdir(output)
     file = open('Output.txt', 'w')
     chdir(diret)
     while True:
-        print(pastas)
         diret_qnt = 0
         arquivos = []
         for item in listdir():
