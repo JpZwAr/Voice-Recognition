@@ -1,0 +1,10 @@
+import pygame
+from gtts import gTTS
+x = str(input('O que deseja que eu fale? '))
+t = gTTS(x, lang='pt')
+t.save('hello.mp3')
+pygame.mixer.init()
+pygame.mixer.music.load("hello.mp3")
+pygame.mixer.music.play()
+while pygame.mixer.music.get_busy() == True:
+    continue
