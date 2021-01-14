@@ -7,3 +7,10 @@ In addition, it will be able to distinguish speakers. That way, it will be possi
 
 Google Speech Recognition API;
 
+# Libraries in use
+
+Speech_Recognition;
+
+PyAutoGUI;
+
+PSUtil;
