@@ -13,4 +13,21 @@ Speech_Recognition;
 
 PyAutoGUI;
 
-PSUtil;
+SHUtil;
+
+OS;
+
+# What has already been implemented
+
+We developed the code responsible for recognize your speech (using the Google Speech API) and verify if it matches a voice command. 
+If your speech is a valid command, them the program executes it.
+
+# Commands available
+
+Open = used to open programs in your computer.
+
+Close = used to close programs in your computer.
+
+Move = used to move files from one folder to another.
+
+Reproduce = used to reproduce media files.
